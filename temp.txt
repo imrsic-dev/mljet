@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mljet</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap"
+          rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="css/documentStyel.css" rel="stylesheet">
+</head>
+<body>
+
+<header>
+    <nav>
+        <div class="row">
+            <div class="logo">
+
+                    <span class="logo-before">MLJET</span><br>
+                    <span class="logo-after">
+                    experience
+                </span>
+
+            </div>
+
+            <ul class="main-nav">
+                <li>
+                    <div class="dropdown">
+                        <button class="dropbtn">Zanimljivosti
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="#">Gdje jesti?</a>
+                            <a href="#">Gdje odsjesti?</a>
+                            <a href="#">Zabava</a>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="#">Kako do Mljeta</a></li>
+                <li class="main-nav_lang-item">
+                    <a href="#" class="lang-button">En</a>
+                    <a href="#" class="lang-button" hidden>Hr</a>
+                </li>
+            </ul>
+        </div>
+
+    </nav>
+    <div class="hero-text-box">
+        <h1 class="h1-title">
+            Get Ready Fast For Fall <br>
+            Leaf Viewing Trips
+        </h1>
+
+    </div>
+    <p class="under-h1-title">
+        Buying the right telescope to take your love of astronomy
+        to the next level is a big next step in the
+        development of your passion for the stars. In many ways, it is ...
+    </p>
+
+</header>
+
+</body>
+</html>
