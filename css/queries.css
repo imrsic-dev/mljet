@@ -1,5 +1,5 @@
 /* snall phones */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 530px) {
     html {
         font-size: 8px;
     }
@@ -22,6 +22,13 @@
 
     .main-nav {
         margin-bottom: 4rem;
+        float: left;
+        width: 100%;
+        text-align: center;
+    }
+
+    .main-nav li {
+        margin-left: 2rem;
     }
 
     .img-container {
@@ -42,7 +49,12 @@
         height: 30rem;
     }
 
-    .grapesPool-img{
+    .wrapper-peka,
+    .wrapper-gradela {
+        margin: 2rem auto;
+    }
+
+    .grapesPool-img {
         margin-top: 3rem;
     }
 
@@ -74,7 +86,7 @@
         margin: 2rem auto;
     }
 
-    .banner-1{
+    .banner-1 {
         background-size: 100%;
         height: 100px;
         width: auto;
@@ -86,55 +98,56 @@
 
     .section-how-to-reach-mljet {
 
-       height: 700px;
+        height: 700px;
         padding-top: 8rem;
-        background-size: 60%,25%, 100%;
+        background-size: 60%, 25%, 100%;
         background-position: left, 100% 35%, center;
     }
 
-    .how-to-reach-text{
+    .how-to-reach-text {
         padding: 3rem;
     }
 
-   .btn-find-out{
-       margin: 2rem auto;
-   }
+    .btn-find-out {
+        margin: 2rem auto;
+    }
 
     .about-text {
         margin-bottom: 2rem;
         padding: 3rem;
     }
 
-    .footer-container{
+    .footer-container {
         margin-top: -28rem;
     }
+
     .footer-p-1,
     .footer-p-2,
-    .footer-p-3{
-       text-align: center;
+    .footer-p-3 {
+        text-align: center;
         border: none;
     }
-   /* .footer-p-1:after,
-    .footer-p-2:after{
-        background-color: #717171;
-        content: "";
-        display: block;
-        height: 1px;
-        position: relative;
-        vertical-align: middle;
-        width: 15%;
-        margin: 3% auto;
-    }*/
 
-    .icon-list{
-    margin-bottom: 2rem;
+    /* .footer-p-1:after,
+     .footer-p-2:after{
+         background-color: #717171;
+         content: "";
+         display: block;
+         height: 1px;
+         position: relative;
+         vertical-align: middle;
+         width: 15%;
+         margin: 3% auto;
+     }*/
+    .icon-list {
+        margin-bottom: 2rem;
     }
 
     .footer-hr {
         height: 1px;
     }
 
-    .copyright, .author, .cookies{
+    .copyright, .author, .cookies {
         text-align: center;
         padding: .3rem 1rem;
     }
